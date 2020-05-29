@@ -12,4 +12,7 @@ snapshotter uses IAM Instance role.
 
 ## Running
 
-`pipenv run "python snapshotter/snapshotter.py"`
+`pipenv run "python snapshotter/snapshotter.py <command> <--project=PROJECT>"`
+
+*command* is list, start or stop
+*project* is optional
